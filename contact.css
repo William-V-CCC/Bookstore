@@ -1,8 +1,39 @@
 .header{
     background-color: #F2EDDC;
     padding: 20px;
+    justify-content: center;
     text-align: center;
+     display: flex;
+    flex-direction: row;
+    padding: 5px;
 }
 .content{
     padding: 20px;
+}
+.vl {
+  border-left: 6px solid black;
+  height: 40px;
+  padding: 5px;
+  margin-left: 10px;
+}
+.logo{
+    background-color: #F2EDDC;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+     display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.content{
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+     display: flex;
+    flex-direction: row;
 }
